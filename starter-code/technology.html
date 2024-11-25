@@ -185,37 +185,55 @@
 
       <picture id="launch-vehicle-image">
         <source
+          srcset="assets/technology/image-launch-vehicle-portrait.jpg"
+          type="image/jpg"
+          media="(min-width: 768px)"
+        />
+        <source
           srcset="assets/technology/image-launch-vehicle-landscape.jpg"
           type="image/jpg"
-          media="(max-width: 1024px)"
+          media="(max-width: 767px)"
         />
         <img
           src="assets/technology/image-launch-vehicle-portrait.jpg"
           alt="Launch Vehicle"
         />
       </picture>
-      <picture hidden id="space-capsule-image">
-        <source
-          srcset="assets/technology/image-space-capsule-landscape.jpg"
-          type="image/jpg"
-          media="(max-width: 1024px)"
-        />
-        <img
-          src="assets/technology/image-space-capsule-portrait.jpg"
-          alt="Space Capsule"
-        />
-      </picture>
-      <picture hidden id="spaceport-image">
-        <source
-          srcset="assets/technology/image-spaceport-landscape.jpg"
-          type="image/jpg"
-          media="(max-width: 1024px)"
-        />
-        <img
-          src="assets/technology/image-spaceport-portrait.jpg"
-          alt="Spaceport"
-        />
-      </picture>
+
+        <picture hidden id="space-capsule-image">
+          <source
+            srcset="assets/technology/image-space-capsule-portrait.jpg"
+            type="image/jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="assets/technology/image-space-capsule-landscape.jpg"
+            type="image/jpg"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="assets/technology/image-space-capsule-portrait.jpg"
+            alt="Space Capsule"
+          />
+        </picture>
+
+        <picture hidden id="spaceport-image">
+          <source
+            srcset="assets/technology/image-spaceport-portrait.jpg"
+            type="image/jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="assets/technology/image-spaceport-landscape.jpg"
+            type="image/jpg"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="assets/technology/image-spaceport-portrait.jpg"
+            alt="Spaceport"
+          />
+        </picture>
+
     </main>
   </body>
 </html>
